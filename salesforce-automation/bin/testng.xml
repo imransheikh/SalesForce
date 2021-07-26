@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name=" Test Automation Test Suite" configfailurepolicy="continue" parallel="none">
+	<test name="StartTest" group-by-instances="true">
+        <classes>
+            <class name="com.salesforcetest.test.StartTest"></class>
+        </classes>
+    </test>
+    <test name="IncidentManagementScenarioTest" group-by-instances="true">
+        <classes>
+            <class name="com.salesforcetest.test.IncidentManagementScenarioTest"></class>
+        </classes>
+    </test> 
+    <test name="ComplianceManagementScenarioTest" group-by-instances="true">
+        <classes>
+            <class name="com.salesforcetest.test.ComplianceManagementScenarioTest"></class>
+        </classes>
+    </test>
+    <test name="NewAccountScenarioTest" group-by-instances="true">
+        <classes>
+            <class name="com.salesforcetest.test.NewAccountScenarioTest"></class>
+        </classes>
+    </test>
+    <test name="MultiTypeServiceItemCreator" group-by-instances="true">
+        <classes>
+            <class name="com.salesforcetest.test.MultiTypeServiceItemCreatorTest"></class>
+        </classes>
+    </test>
+    <test name="SupervisorActionTest" group-by-instances="true">
+        <classes>
+            <class name="com.salesforcetest.test.SupervisorActionTest"></class>
+        </classes>
+    </test>
+    <test name="PrivacyNoticeServiceItemTest" group-by-instances="true">
+        <classes>
+            <class name="com.salesforcetest.test.PrivacyNoticeServiceItemTest"></class>
+        </classes>
+    </test>
+    <test name="Scenario15_ClosingPTAandPIA" group-by-instances="true">
+        <classes>
+            <class name="com.salesforcetest.test.Scenario15_ClosingPTAandPIA"></class>
+        </classes>
+    </test>
+    <test name="Scenario16_AddCaseTeamMember" group-by-instances="true">
+        <classes>
+            <class name="com.salesforcetest.test.CaseTeamMemberTest"></class>
+        </classes>
+    </test>
+    <test name="ReportingTest" group-by-instances="true">
+        <classes>
+            <class name="com.salesforcetest.test.ReportingTest"></class>
+        </classes>
+    </test>
+</suite>
